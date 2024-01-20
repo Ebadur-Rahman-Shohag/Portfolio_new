@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
 
           <div className=" flex gap-x-5 mt-4">
-            <a  href="https://github.com/Ebadur-Rahman-Shohag">
+            <a href="https://github.com/Ebadur-Rahman-Shohag">
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
             <a href="https://www.linkedin.com/in/ebadur-rahman-371a75252/">
