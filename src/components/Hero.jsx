@@ -24,7 +24,11 @@ const Hero = () => {
             onClick={handleClick}
             className="mb-8 py-5 mt-8  border-2 border-[#d4f5e1] w-40 bg-[#d4f5e1] hover:border-2 hover:shadow-sm hover:bg-[#a3e1ba] hover:text-black text-slate-700  text-center tracking-tight rounded-2xl shadow-lg font-bold"
           >
-            <a ref={anchorRef} href="./src/Resume.pdf" download>
+            <a
+              ref={anchorRef}
+              href="https://drive.google.com/file/d/1h6sCu7ymwmlKqZl-LarHkkfRaHYSHVlg/view?usp=sharing"
+              download
+            >
               Download Resume
             </a>
           </div>
