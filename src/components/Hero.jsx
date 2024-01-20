@@ -1,7 +1,13 @@
 import heroImg from "../assets/hero.svg";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { useRef } from "react";
 
 const Hero = () => {
+  const anchorRef = useRef(null);
+
+  const handleClick = () => {
+    anchorRef.current.click();
+  };
   return (
     <div className="bg-emerald-100 py-24">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
@@ -14,14 +20,17 @@ const Hero = () => {
             turning ideas into interactive reality
           </p>
 
-          <div className="mb-8 py-5 mt-8  border-2 border-[#d4f5e1] w-40 bg-[#d4f5e1] hover:border-2 hover:shadow-sm hover:bg-[#a3e1ba] hover:text-black text-slate-700  text-center tracking-tight rounded-2xl shadow-lg font-bold">
-            <a href="./src/Resume.pdf" download>
+          <div
+            onClick={handleClick}
+            className="mb-8 py-5 mt-8  border-2 border-[#d4f5e1] w-40 bg-[#d4f5e1] hover:border-2 hover:shadow-sm hover:bg-[#a3e1ba] hover:text-black text-slate-700  text-center tracking-tight rounded-2xl shadow-lg font-bold"
+          >
+            <a ref={anchorRef} href="./src/Resume.pdf" download>
               Download Resume
             </a>
           </div>
 
           <div className=" flex gap-x-5 mt-4">
-            <a href="https://github.com/Ebadur-Rahman-Shohag">
+            <a  href="https://github.com/Ebadur-Rahman-Shohag">
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
             <a href="https://www.linkedin.com/in/ebadur-rahman-371a75252/">
