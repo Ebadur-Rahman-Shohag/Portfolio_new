@@ -22,7 +22,7 @@ const Hero = () => {
 
           <div
             onClick={handleClick}
-            className="mb-8 py-5 mt-8  border-2 border-[#d4f5e1] w-40 bg-base-300 hover:border-2 hover:shadow-sm hover:bg-[#b9c9bf] hover:text-black text-slate-700  text-center tracking-tight rounded-2xl shadow-lg font-bold"
+            className="mb-8 py-5 mt-8  border-2 border-[#ced1cf] w-40 bg-base-300 hover:border-2 hover:shadow-sm hover:bg-[#8b918d] hover:text-black text-slate-700  text-center tracking-tight rounded-2xl shadow-lg font-bold"
           >
             <a
               ref={anchorRef}
