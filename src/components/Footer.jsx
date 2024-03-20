@@ -3,7 +3,7 @@ import { links } from "../data";
 function Footer() {
   return (
     <footer className="bg-[#303837]">
-      <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
+      <div className="align-element py-4 flex justify-center  sm:flex-row sm:gap-x-8 sm:items-center sm:py-8">
         <div className="text-white mx-auto flex text-center gap-x-4">
           {links.map((link) => {
             const { id, href, text } = link;

@@ -80,8 +80,8 @@ function Contact() {
 
   return (
     <div id="contact" className="max-w-md mx-auto my-8">
-      <h1 className="text-3xl font-semibold text-center mb-4">Get in Touch</h1>
-      <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      <h1 className="border-b pb-5 text-3xl font-semibold text-center mb-4">Get in Touch</h1>
+      <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mt-8 mb-4">
         <div className="mb-4">
           <label
             className="block text-gray-700 text-sm font-bold mb-2"

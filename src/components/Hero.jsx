@@ -9,7 +9,7 @@ const Hero = () => {
     anchorRef.current.click();
   };
   return (
-    <div className="bg-emerald-100 py-24">
+    <div className="bg-base-200 py-24">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className="text-7xl font-bold tracking-wider">I'm Ebadur</h1>
@@ -22,7 +22,7 @@ const Hero = () => {
 
           <div
             onClick={handleClick}
-            className="mb-8 py-5 mt-8  border-2 border-[#d4f5e1] w-40 bg-[#d4f5e1] hover:border-2 hover:shadow-sm hover:bg-[#a3e1ba] hover:text-black text-slate-700  text-center tracking-tight rounded-2xl shadow-lg font-bold"
+            className="mb-8 py-5 mt-8  border-2 border-[#d4f5e1] w-40 bg-base-300 hover:border-2 hover:shadow-sm hover:bg-[#b9c9bf] hover:text-black text-slate-700  text-center tracking-tight rounded-2xl shadow-lg font-bold"
           >
             <a
               ref={anchorRef}
