@@ -1,4 +1,4 @@
-import heroImg from "../assets/hero.svg";
+import heroImg from "../assets/hero.gif";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { useRef } from "react";
 
