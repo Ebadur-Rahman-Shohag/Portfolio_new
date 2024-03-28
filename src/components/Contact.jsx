@@ -59,7 +59,7 @@
 
 export default Contact;
 */
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function Contact() {
   const [fullName, setFullName] = useState('');
@@ -90,7 +90,7 @@ function Contact() {
             Full Name
           </label>
           <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-full py-2 px-3  leading-tight focus:outline-none focus:shadow-outline"
             id="fullName"
             type="text"
             placeholder="Enter your full name"
@@ -107,7 +107,7 @@ function Contact() {
             Email
           </label>
           <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-full py-2 px-3  leading-tight focus:outline-none focus:shadow-outline"
             id="email"
             type="email"
             placeholder="Enter your email address"
@@ -124,7 +124,7 @@ function Contact() {
             Your Message
           </label>
           <textarea
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-full py-2 px-3  leading-tight focus:outline-none focus:shadow-outline"
             id="message"
             placeholder="Type your message here"
             value={message}

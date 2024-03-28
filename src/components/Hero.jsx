@@ -13,16 +13,16 @@ const Hero = () => {
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className="text-7xl font-bold tracking-wider">I'm Ebadur</h1>
-          <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
+          <p className="mt-4 text-3xl capitalize tracking-wide">
             Front-End Developer
           </p>
-          <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
+          <p className="mt-2 text-lg capitalize tracking-wide">
             turning ideas into interactive reality
           </p>
 
           <div
             onClick={handleClick}
-            className="mb-8 py-5 mt-8  border-2 border-[#ced1cf] w-40 bg-base-300 hover:border-2 hover:shadow-sm hover:bg-[#8b918d] hover:text-black text-slate-700  text-center tracking-tight rounded-2xl shadow-lg font-bold"
+            className="mb-8 py-5 mt-8  border-2 border-[#ced1cf] w-40 bg-base-300 hover:border-2 hover:shadow-sm hover:bg-[#8b918d] hover:text-black text-center tracking-tight rounded-2xl shadow-lg font-bold"
           >
             <a
               ref={anchorRef}
