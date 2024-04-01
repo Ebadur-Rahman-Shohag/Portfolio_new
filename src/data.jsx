@@ -33,11 +33,19 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: "https://i.ibb.co/qNm9qc6/comfy.png",
+    url: "https://comfy-ten.vercel.app/",
+    github: "https://github.com/Ebadur-Rahman-Shohag/Comfy",
+    title: "comfy store",
+    text: "This is an E-Commerce web application where user can order furniture. This application requires users account and login and payments are made on delivery. Users can also explore the web application by demo log in. Users can see their data in the order page. Also this application has a filtering method and dark mode.",
+  },
+  {
+    id: nanoid(),
     img: "https://i.ibb.co/bH9t37d/Worldwise.png",
     url: "https://world-wise-xped.vercel.app/",
     github: "https://github.com/Ebadur-Rahman-Shohag/WorldWise",
     title: "WorldWise",
-    text: "It is a web application where travelers can track and keep notes of the places they have visited. The application supports Geolocation. User can add and delete cities as they wish.",
+    text: "It is a web application where travelers can track and keep notes of the places they have visited. The application supports Geolocation. Users can add and delete cities as they wish.",
   },
   {
     id: nanoid(),
@@ -47,6 +55,15 @@ export const projects = [
     title: "Order Your Pizza",
     text: "It is a web application where users can order one or more pizzas from a menu. Requires no user account and no login. And payments are made on delivery. This application supports GPS location",
   },
+  {
+    id: nanoid(),
+    img: "https://i.ibb.co/QCtmCPG/guess-the-number.png", 
+    url: "https://guess-the-number-roan.vercel.app/",
+    github: "https://github.com/Ebadur-Rahman-Shohag/Guess-the-number",
+    title: "Guess the number",
+    text: "It is a simple guessing game where players can guess a number between 1-20. There is a score option. The player who scores more will win",
+  },
+
   {
     id: nanoid(),
     img: "https://i.ibb.co/ChbYBDK/image-search.png",
