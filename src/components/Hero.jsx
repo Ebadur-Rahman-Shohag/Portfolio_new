@@ -26,7 +26,7 @@ const Hero = () => {
           >
             <a
               ref={anchorRef}
-              href="https://drive.google.com/file/d/1YzuWvrj0RfTRVdo4FW00ohZJDkQ9URFV/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1KsxpGXyOvYSvi0rv3Uc-w7NU8KlFBqkV/view?usp=sharing"
               download
             >
               Download Resume
